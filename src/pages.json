@@ -6,14 +6,36 @@
       "style": {
         "navigationBarTitleText": "首页"
       }
-    },
-    {
-      "name": "profile",
-      "path": "pages/profile/profile",
-      "style": {
-        "navigationBarTitleText": "个人"
-      }
     }
+    // {
+    //   "name": "shoping",
+    //   "path": "pages/shoping/index",
+    //   "style": {
+    //     "navigationBarTitleText": "购物"
+    //   }
+    // },
+    //   {
+    //   "name": "publish",
+    //   "path": "pages/publish/index",
+    //   "style": {
+    //     "navigationBarTitleText": "发布"
+    //   }
+    // },
+    //   {
+    //     "name": "message",
+    //     "path": "pages/message/index",
+    //     "style": {
+    //       "navigationBarTitleText": "消息"
+    //     }
+    //   },
+    //     {
+    //   "name": "mine",
+    //   "path": "pages/mine/index",
+    //   "style": {
+    //     "navigationBarTitleText": "我"
+    //   }
+    // }
+
   ],
   "subPackages": [
     {
@@ -32,23 +54,36 @@
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#1AA86C",
+    "navigationBarBackgroundColor": "#e01627eb",
     "backgroundColor": "#F8F8F8"
-  },
-  "tabBar": {
-    "color": "#1AA86C",
-    "selectedColor": "#1AA86C",
-    "borderStyle": "white",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/profile/profile",
-        "text": "个人"
-      }
-    ]
   }
+  // "tabBar": {
+  //   "color": "#1AA86C",
+  //   "selectedColor": "#1AA86C",
+  //   "borderStyle": "white",
+  //   "backgroundColor": "#ffffff",
+  //   "list": [
+  //     {
+  //       "pagePath": "pages/index/index",
+  //       "text": "首页"
+  //     },
+  //     {
+  //       "pagePath": "pages/shoping/index",
+  //       "text": "购物"
+  //     },
+  //     {
+  //       "pagePath": "pages/publish/index",
+  //       "text": "发布"
+  //     },
+
+  //     {
+  //       "pagePath": "pages/message/index",
+  //       "text": "消息"
+  //     },
+  //     {
+  //       "pagePath": "pages/mine/index",
+  //       "text": "我"
+  //     }
+  //   ]
+  // }
 }
