@@ -1,19 +1,41 @@
 {
   "pages": [
     {
+      "name": "shoping",
+      "path": "pages/shoping/index",
+      "style": {
+        "navigationBarTitleText": "购物"
+      }
+    },
+    {
+      "name": "shoping-car",
+      "path": "pages/shoping-car/index",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
       "name": "index",
       "path": "pages/index/index",
       "style": {
         "navigationBarTitleText": "首页"
       }
+    },
+
+    {
+      "name": "message",
+      "path": "pages/message/index",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "name": "mine",
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我"
+      }
     }
-    // {
-    //   "name": "shoping",
-    //   "path": "pages/shoping/index",
-    //   "style": {
-    //     "navigationBarTitleText": "购物"
-    //   }
-    // },
     //   {
     //   "name": "publish",
     //   "path": "pages/publish/index",
@@ -35,7 +57,6 @@
     //     "navigationBarTitleText": "我"
     //   }
     // }
-
   ],
   "subPackages": [
     {
@@ -54,36 +75,74 @@
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#e01627eb",
+    "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
-  }
-  // "tabBar": {
-  //   "color": "#1AA86C",
-  //   "selectedColor": "#1AA86C",
-  //   "borderStyle": "white",
-  //   "backgroundColor": "#ffffff",
-  //   "list": [
-  //     {
-  //       "pagePath": "pages/index/index",
-  //       "text": "首页"
-  //     },
-  //     {
-  //       "pagePath": "pages/shoping/index",
-  //       "text": "购物"
-  //     },
-  //     {
-  //       "pagePath": "pages/publish/index",
-  //       "text": "发布"
-  //     },
+  },
+  "tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+    // "iconfontSrc":"static/iconfont.ttf", // app tabbar 字体.ttf文件路径 app 3.4.4+
+		"list": [
 
-  //     {
-  //       "pagePath": "pages/message/index",
-  //       "text": "消息"
-  //     },
-  //     {
-  //       "pagePath": "pages/mine/index",
-  //       "text": "我"
-  //     }
-  //   ]
-  // }
+      {
+        "pagePath": "pages/index/index",
+        // "selectedIconPath": "static/image/icon_component_HL.png",
+        "text": "首页",
+        "iconfont": {
+          // 优先级高于 iconPath，该属性依赖 tabbar 根节点的 iconfontSrc
+
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/shoping/index",
+        // "selectedIconPath": "static/image/icon_component_HL.png",
+        "text": "购物",
+        "iconfont": {
+          // 优先级高于 iconPath，该属性依赖 tabbar 根节点的 iconfontSrc
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/message/index",
+        // "selectedIconPath": "static/image/icon_component_HL.png",
+        "text": "消息",
+        "iconfont": {
+          // 优先级高于 iconPath，该属性依赖 tabbar 根节点的 iconfontSrc
+
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/mine/index",
+        // "selectedIconPath": "static/image/icon_component_HL.png",
+        "text": "我",
+        "iconfont": {
+          // 优先级高于 iconPath，该属性依赖 tabbar 根节点的 iconfontSrc
+
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      }
+    ],
+		"midButton": {
+      "width": "80px",
+			"height": "50px",
+			"text": "文字"
+//  "backgroundImage": "static/image/midButton_backgroundImage.png"
+    }
+	}
 }

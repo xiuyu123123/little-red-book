@@ -9,9 +9,12 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Car: typeof import('./components/car.vue')['default']
     Likes: typeof import('./components/likes.vue')['default']
+    MoveDelete: typeof import('./components/move-Delete.vue')['default']
     PullList: typeof import('./components/pullList.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SearchInput: typeof import('./components/searchInput.vue')['default']
   }
 }

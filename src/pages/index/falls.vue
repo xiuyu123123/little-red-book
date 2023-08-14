@@ -29,8 +29,8 @@ import { imgList } from './data';
   --avater-size: 30rpx;
   --content-padding: 20rpx;
   --font-size-sm: 16rpx;
-  --font-size-title: 24rpx
-  padding: 2rpx;
+  --font-size-title: 24rpx;
+  padding: 20rpx;
   columns: 2;
   column-gap: 10rpx;
   view {
@@ -39,7 +39,7 @@ import { imgList } from './data';
   .page_content {
     height: 100%;
     overflow-y: auto;
-    overflow-x:hidden;
+    overflow-x: hidden;
     border: 1rpx solid transparent;
     border-radius: 5rpx;
     box-shadow: 2rpx 2rpx 2rpx 2rpx #00000042;
@@ -56,14 +56,14 @@ import { imgList } from './data';
     }
     .page_content_user {
       width: 90%;
-      padding:0  var(--content-padding);
+      padding: 0 var(--content-padding);
       height: auto;
       display: inline-block;
       overflow: hidden;
       font-size: var(--font-size-sm);
       .page_content_avater {
-      display: inline-flex;
-      align-items: center;
+        display: inline-flex;
+        align-items: center;
         image {
           width: var(--avater-size);
           height: var(--avater-size);
@@ -74,8 +74,11 @@ import { imgList } from './data';
         display: inline-flex;
         align-items: center;
         float: right;
+        .page_content_likes_components {
+          display: flex;
+        }
       }
     }
-    }
-    }
+  }
+}
 </style>

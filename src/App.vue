@@ -11,4 +11,10 @@ onHide(() => {
 });
 </script>
 
-<style></style>
+<style lang="scss">
+page {
+  font-size: 20rpx;
+}
+
+/* 设置所有元素的内边距为 0 */
+</style>
